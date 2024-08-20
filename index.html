@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ana Beatriz Arteiro Barreiro</title>
+    
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer ></script>
+    
     <link rel = "icon" href="./images/fotodePerfil.jfif">
 </head>
 <body>
@@ -12,13 +16,16 @@
         <h1><b>Ana Beatriz Arteiro Barreiro</b></h1>
         <h3>Desenvolvedora e Designer</h3>
         <br> 
-        <a href='https://drive.google.com/file/d/1ylPr5BSXk5hhS3O7U1KaeFBf4LgaZoKZ/view?usp=sharing' ><button>Currículo</button></a>
+        <button id="mostraAside"> Mais informações </button>
+        <a href="https://github.com/aanabarreiro"><button>GitHub</button></a>
+        <a href='images/Currículo Ana (2).pdf' download><button> Download do currículo </button></a>
         <a href='https://www.linkedin.com/in/ana-beatriz-arteiro-barreiro-42a54a303/'><button>Linkedin</button></a>
     </header>
 
    
     <main>
-        <aside>
+        
+        <aside id="myAside" style="display: none;">
             <h2>Ferramentas:</h2>
             <ul>
                 <li>JavaScript</li>
@@ -38,22 +45,20 @@
                 <li><a href="https://www.senacrs.com.br/hotsite/talentosti/">Lógica de Programação em JS - 3 Mil Talentos TI</a></li>
                 <li><a href="https://www.senacrs.com.br/hotsite/talentosti/">Programação em Front-End - 3 Mil Talentos TI</a></li>
             </ul>
-            <h2>Quem eu sou?</h2>
-        <p>
-            Sou Ana barreiro, tenho 15 anos e sou estudante de Marketing digital e Design, além de programação de Front End com HTML e CSS. Uns anos atrás, eu nem mesmo cogitava a ideia de adentrar a área da tecnologia, mas assim que iniciei o estudo ténico de inofrmática, me apaixonei por esse universo. 
-        </p>
         </aside>
-        <section>
+        <section class="sec">
             
             </article>
             <article>
-                <h2>Como foi minha experiência geral no Mercado de Trabalho?</h2>
-                <p>Surgindo de repente, o interesse pelo Marketing surgiu a pouco tempo atrás, mas me conquistou completamente. No momento em que somos introduzidos neste universo, percebemos sua complexidade e abrangência, mas, de forma geral, ele nos proporciona momentos incríveis.</p>
-                <p>Acredito que o Marketing seja um conhecimento que todos aqueles que consumem algo deveriam possuir. No momento em que entendemos como os produtos são vendidos, também entendemos sobre comportamento e impulsos das pessoas.</p>
+                <h2>Quem eu sou?</h2>
+                <p><b>Oiê! Meu nome é Ana Beatriz, tenho 15 anos e sou residente de São Leopoldo, Rio Grande do Sul.</b></p>
+                <p>Atualmente, estou cursando o ensino médio técnico em informática para a internet no Senac RS, além disso, também sou atleta de ginástica artística à 10 anos. A vida de taleta contribuiu muito para a pessoa que sou hoje, movida por desafios, com o desejo de estar em constante evolução e sempre em busca de soluções.</p>
+                <p>Com um espírito inquieto, estou sempre buscando por novos desafios, foi graças à isso, que conheci o universo da tecnologia, tendo cursado Lógica de programação em JS e Programação em Front End com HTML, CSS e JS. O mundo Tech, com tanto a oferecer, me conquistou imediatamente, me motivando a buscar novas experiências. Foi então que cursei Marketing Digital e Design pela plataforma Alura, desenvolendo conhecimentos sobre UX/UI Design, Inbound Marketing e Design Visual.</p>
+                <p>É na busca de mais conhecimentos, que estou atualmente buscando iniciar minha carreira profissional na área da tecnologia.</p>
             </article>
             <article>
-                <h2>Como foi o proceesso de criação deste site?</h2>
-                <p>Foi um processo desafiador, tendo contado com diversas dúvidas e dificuldades. Entretanto, este é um projeto pelo qual me orgulho por ser minha primeira experiência criando do zero. Sempre buscando evoluir mais e mais, seguimos!🚀</p>
+                <h2>Experiência</h2>
+                <p>Atualmente atuo na área da educação física, sendo treinadora de Ginástica Artística Competitiva de meninas de 4 a 9 anos na Sociedade Ginástica de São Leopoldo. Função que me ensina todos os dias habilidades como comunicação e solução de problemas!🚀</p>
             </article>
         </section>
         </main>
@@ -64,191 +69,3 @@
         </footer>
 </body>
 </html>
-<style>
-
-body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-
-header {
-    background-color:#0a0909;
-    color: #ffffff ;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 0px solid #ccc;
-}
-
-header img{
-    height: 150px;
-    width: 190px;
-    display: inline;
-    border-radius: 50%;
-}
-
-
-img{
-    height: 400px;
-    width: 500px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-.manual{
-    height: 300px;
-    width: 300px;
-    margin-bottom: 17px;
-}
-.container-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-
-section {
-    flex: 2;
-    margin-right: 20px;
-}
-
-section h2 {
-    background: #f4f4f4;
-    padding: 10px;
-    border-bottom: 2px solid #ccc;
-}
-
-img{
-    height: 150px;
-    width: 220;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-article {
-    background: #f4f4f4;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-article header h3 {
-    margin: 0;
-}
-
-article header p {
-    font-size: 0.9em;
-    color: #555;
-}
-article h2{
-    color: #000000;
-}
-
-header a button{
-    color: #000000;
-    border-color: #000000;
-    border-radius: 7px;
-    width: 150px;
-    height: 3 0px;
-}
-
-header a button:hover{
-    background-color: #cac7c7;
-}
-
-h4{
-    color: #000000;
-}
-
-aside {
-    color: #000000;
-    flex: 1;
-    background: #eaeaea;
-    padding: 10px;
-    margin-left: 0px;
-    margin-right: 20px;
-}
-
-aside h2 {
-    background: #ddd;
-    padding: 10px;
-    border-bottom: 2px solid #ccc;
-}
-
-aside ul {
-    list-style: none;
-    padding: 0;
-}
-
-aside ul li {
-    margin-bottom: 10px;
-}
-
-aside ul li a {
-    text-decoration: none;
-    color: #000000;
-}
-
-aside ul li a:hover {
-    text-decoration: underline;
-}
- aside ul img{
-    height: 1500px;
-    width: 350px;
- }
-.logo-pai{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.logo{
-    height: 200px;
-    width: 200px;
-}
-
-aside img{
-    
-    height: 300px;
-    width: 350px;
-}
-
-
-footer {
-    text-align: center;
-    background: #000000;
-    color: #fff;
-    padding: 10px 0;
-    margin-top: 20px;
-}
-
-article h3{
-    color: #000000;
-}
-
-
-</style>
