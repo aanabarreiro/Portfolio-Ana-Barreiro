@@ -144,6 +144,7 @@ header {
     padding: 20px;
     text-align: center;
     border-bottom: 0px solid #ccc;
+    width: 100%;
 }
 
 header img{
@@ -170,6 +171,7 @@ section {
     flex: 2;
     width: 70%;
     display: block;
+    width: block;
 }
 
 section h2 {
@@ -215,7 +217,7 @@ aside {
     padding: 5px;
     margin-left: 0px;
     margin-right: 0px;
-    width: 30%;
+    width: 100%;
 }
 
 aside h2 {
@@ -223,6 +225,7 @@ aside h2 {
     background: #ddd;
     padding: 10px;
     border-bottom: 2px solid #ccc;
+    border-radius: 50px;
 }
 
 aside ul {
