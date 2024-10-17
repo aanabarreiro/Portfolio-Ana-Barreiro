@@ -4,14 +4,14 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #d4cfcf;
-    background-color: #000000;
+    color: #000000;
+    background-color: #F4CFD6;
 }
 
 
 header {
-    background-color:#000000;
-    color: #ffffff ;
+    background-color:#F4CFD6;
+    color: #000000 ;
     padding: 20px;
     text-align: center;
 }
@@ -32,7 +32,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
-    background-color: #000000;
+    background-color: #F4CFD6;
     margin: 10px;
 }
 
@@ -73,13 +73,11 @@ a{
 h4{
     color: #ffffff;
 }
-#myAside{
-    
-}
+
 aside {
-    color: #ffffff;
+    color: #000000;
     flex: 1;
-    background: #000000;
+    background: #F4CFD6;
     padding: 10px;
     margin-left: 0px;
     margin-right: 20px;
@@ -89,7 +87,7 @@ aside {
 
 aside h2 {
     color: #000000;
-    background: #ddd;
+    background: #ffffff;
     padding: 10px;
     border-bottom: 2px solid #ccc;
     border-radius: 50px;
@@ -106,7 +104,7 @@ aside ul li {
 
 aside ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 aside ul li a:hover {
@@ -115,8 +113,8 @@ aside ul li a:hover {
 
 footer {
     text-align: center;
-    background: #000000;
-    color: #ffffff;
+    background: #F4CFD6;
+    color: #000000;
     
 }
 
@@ -197,14 +195,14 @@ div.logos img{
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #d4cfcf;
-    background-color: #151515;
+    color: #000000;
+    background-color: #F4CFD6;
 }
 
 
 header {
-    background-color:#151515;
-    color: #ffffff ;
+    background-color:#F4CFD6;
+    color: #000000 ;
     padding: 20px;
     text-align: center;
     border-bottom: 0px solid #ccc;
@@ -227,7 +225,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
-    background-color: #151515;
+    background-color: #F4CFD6;
 }
 
 
@@ -256,9 +254,9 @@ article h2{
 }
 
 header button{
-    color: #ffffff;
+    color: #000000;
     border-color: #ffffff;
-    background-color: #000000;
+    background-color: #F4CFD6;
     border-radius: 10px;
     width: 150px;
     height: 30px;
@@ -267,7 +265,7 @@ header button{
 
 
 header button:hover{
-    background-color: #c7c5c5;
+    background-color: #F4CFD6;
 }
 
 h4{
@@ -275,9 +273,9 @@ h4{
 }
 
 aside {
-    color: #ffffff;
+    color: #000000;
     flex: 1;
-    background: #151515;
+    background: #F4CFD6;
     padding: 5px;
     margin-left: 0px;
     margin-right: 0px;
@@ -322,4 +320,3 @@ article h3{
 }
 
 }
-
