@@ -122,18 +122,15 @@ article h3{
     color: #000000;
 }
 
-div.logos img{
-    height: 5rem;
-    width: 5rem;
-    border-radius: 100%;
+.logos {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 50rem;
+    width: 100rem;
+   
+   
 }
 
-.downloadIcon{
-    transform: scale(0.9);
-}
-.logos img:hover{
-    transform: scale(1.1);
-}
 .projetos{
     display: flex;
     flex-direction: row;
@@ -157,6 +154,18 @@ div.logos img{
     width: 550px;
     display: flex;
     animation: slide 10s infinite;
+  }
+
+  .link{
+    color: #000000;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+  }
+  #mostraAside{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
   }
  
   @keyframes slide {
