@@ -1,2 +1,2 @@
 # Portfolio-Ana-Barreiro
-Projeto final do Curso de Front End pelo programa 3 Mil Talentos TI.
+Projeto referente ao Ensino Méd8o Senac.
