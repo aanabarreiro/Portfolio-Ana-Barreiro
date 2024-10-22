@@ -215,9 +215,22 @@ article h3{
     height: 30px;
     
   }
- button:hover{
+ .botaoProjeto:hover{
     background-color: #ad606e;
  }
+
+ .botaoform{
+    width: 60px;
+    height: 30px;
+    margin: 20px;
+ }
+.descriçao{
+    width: 80rem;
+    margin-left: 10%;
+}
+
+
+
   @keyframes slide {
     0% {
       transform: translateX(0);
@@ -245,6 +258,19 @@ article h3{
     }
    
   }
+
+  .botoes button {
+    background-color: #F4CFD6;
+    border-radius: 50px;
+    margin: 10px;
+    height: 70px;
+    width: 110px;
+  }
+
+  .botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
  
-
