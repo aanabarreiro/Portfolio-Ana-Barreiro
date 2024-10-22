@@ -134,6 +134,7 @@ article h3{
 .projetos{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .ferramentas{
@@ -144,7 +145,7 @@ article h3{
     margin: 2rem 0;
 }
 .container {
-    margin-top: 150px;
+    margin-top: 50px;
     width: 100%;
     overflow: hidden;
     box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.575);
@@ -167,7 +168,56 @@ article h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
   }
- 
+  .botaoProjeto{
+    background-color:#000000 ;
+    border-radius: 100px;
+    color: #F4CFD6;
+    padding: 1rem;
+    margin-left: 190px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .descriçao{
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 1rem;
+  }
+
+  #recado{
+    width: 15rem;
+    height: 1rem;
+  }
+  article form label{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+  article form input{
+    background-color: #F4CFD6;
+    color: #000000;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  article textarea{
+    background-color: #F4CFD6;
+    color: #000000;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  article form a button{
+    background-color: #F4CFD6;
+    color: #000000;
+    border-radius: 50px;
+    width: 50px;
+    height: 30px;
+    
+  }
+ button:hover{
+    background-color: #ad606e;
+ }
   @keyframes slide {
     0% {
       transform: translateX(0);
@@ -195,137 +245,6 @@ article h3{
     }
    
   }
+  
  
 
-@media (max-width: 720px) {
-    body {
-    width: 100%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #000000;
-    background-color: #F4CFD6;
-}
-
-
-header {
-    background-color:#F4CFD6;
-    color: #000000 ;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 0px solid #ccc;
-    width: 100%;
-}
-
-header img{
-    height: 150px;
-    width: 190px;
-    border-radius: 50%;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #F4CFD6;
-}
-
-
-section {
-    flex: 2;
-    width: 70%;
-    display: block;
-    width: block;
-}
-
-section h2 {
-    background: #f4f4f4;
-    padding: 0px;
-    border-bottom: 2px solid #ccc;
-}
-
-article {
-    margin: 10px;
-    padding: 0px;
-    justify-content: center;
-    align-items: center;
-}
-
-article h2{
-    color: #000000;
-}
-
-header button{
-    color: #000000;
-    border-color: #ffffff;
-    background-color: #F4CFD6;
-    border-radius: 10px;
-    width: 150px;
-    height: 30px;
-
-}
-
-
-header button:hover{
-    background-color: #F4CFD6;
-}
-
-h4{
-    color: #ffffff;
-}
-
-aside {
-    color: #000000;
-    flex: 1;
-    background: #F4CFD6;
-    padding: 5px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 100%;
-}
-
-aside h2 {
-    color: #000000;
-    background: #ddd;
-    padding: 10px;
-    border-bottom: 2px solid #ccc;
-    border-radius: 50px;
-}
-
-aside ul {
-    list-style: none;
-    padding: 0;
-}
-
-aside ul li {
-    margin-bottom: 10px;
-}
-
-aside ul li a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-aside ul li a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    background: #151515;
-    color: #fff;
-    
-}
-
-article h3{
-    color: #000000;
-}
-
-}
