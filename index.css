@@ -272,5 +272,20 @@ article h3{
     justify-content: center;
     align-items: center;
   }
+
+  .botoes button:hover{
+    background-color: #cc9aa4;
+  }
   
- 
+ .icones{
+  width: 150px;
+  height: 150px;
+ }
+  .ftcurriculo{
+    margin-right: 500px;
+    margin-left: 550px;
+  }
+
+  .descriçao h1{
+    color:#ad606e;
+  }
